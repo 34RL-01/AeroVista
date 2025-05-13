@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/dronepic1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    gap: 40rem;
+    justify-content: center;
+}
+
+.navlinks {
+    display: flex;
+    gap: 20px;
+}
+
+.navlinks li {
+    list-style: none;
+}
+
+.navlinks li {
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+header a:hover {
+    color: orangered;
+}
+
+.header-text {
+    color: rgb(8, 27, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 60%;
+    /* margin-bottom: auto; */
+    height: 71vh;
+    margin-top: 5%;
+    margin-right: 60%;
+}
+
+.header-text button {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(12, 12, 12);
+}
+
+
+
+.header-box {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 80px;
+    gap: 30px;
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    margin-bottom: auto;
+}
