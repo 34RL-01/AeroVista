@@ -12,6 +12,7 @@ nav {
     display: flex;
     gap: 40rem;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .navlinks {
@@ -30,6 +31,7 @@ nav {
 header a {
     text-decoration: none;
     color: rgb(8, 8, 8);
+    padding: 5px;
 }
 
 header a:hover {
@@ -59,6 +61,9 @@ header a:hover {
 }
 
 
+.header-text h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .header-box {
     display: flex;
